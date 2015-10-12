@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DD2E18FB1BCC427900197BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E18FA1BCC427900197BB9 /* AppDelegate.swift */; };
-		DD2E18FD1BCC427900197BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E18FC1BCC427900197BB9 /* ViewController.swift */; };
 		DD2E19001BCC427900197BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2E18FE1BCC427900197BB9 /* Main.storyboard */; };
 		DD2E19021BCC427900197BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2E19011BCC427900197BB9 /* Assets.xcassets */; };
 		DD2E19051BCC427900197BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2E19031BCC427900197BB9 /* LaunchScreen.storyboard */; };
+		DD3F4F3A1BCC6FCB00B8521C /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F4F391BCC6FCB00B8521C /* Bus.swift */; settings = {ASSET_TAGS = (); }; };
+		DD3F4F3C1BCC707F00B8521C /* BusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F4F3B1BCC707F00B8521C /* BusTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DD3F4F3E1BCC70BF00B8521C /* BusDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F4F3D1BCC70BF00B8521C /* BusDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD2E18F71BCC427900197BB9 /* Ryding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ryding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2E18FA1BCC427900197BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD2E18FC1BCC427900197BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD2E18FF1BCC427900197BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD2E19011BCC427900197BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2E19041BCC427900197BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2E19061BCC427900197BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3F4F391BCC6FCB00B8521C /* Bus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		DD3F4F3B1BCC707F00B8521C /* BusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTableViewController.swift; sourceTree = "<group>"; };
+		DD3F4F3D1BCC70BF00B8521C /* BusDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				DD2E18FA1BCC427900197BB9 /* AppDelegate.swift */,
-				DD2E18FC1BCC427900197BB9 /* ViewController.swift */,
 				DD2E18FE1BCC427900197BB9 /* Main.storyboard */,
+				DD3F4F3D1BCC70BF00B8521C /* BusDetailsViewController.swift */,
+				DD3F4F3B1BCC707F00B8521C /* BusTableViewController.swift */,
 				DD2E19011BCC427900197BB9 /* Assets.xcassets */,
 				DD2E19031BCC427900197BB9 /* LaunchScreen.storyboard */,
 				DD2E19061BCC427900197BB9 /* Info.plist */,
+				DD3F4F391BCC6FCB00B8521C /* Bus.swift */,
 			);
 			path = Ryding;
 			sourceTree = "<group>";
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2E18FD1BCC427900197BB9 /* ViewController.swift in Sources */,
+				DD3F4F3E1BCC70BF00B8521C /* BusDetailsViewController.swift in Sources */,
+				DD3F4F3A1BCC6FCB00B8521C /* Bus.swift in Sources */,
 				DD2E18FB1BCC427900197BB9 /* AppDelegate.swift in Sources */,
+				DD3F4F3C1BCC707F00B8521C /* BusTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				DD2E190B1BCC427900197BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
