@@ -2,7 +2,7 @@
 //  BusDetailsViewController.swift
 //  Ryding
 //
-//  Created by Rafael Lima on 10/12/15.
+//  Created by Rafael Lima and David on 10/12/15.
 //  Copyright © 2015 Rafael Lima. All rights reserved.
 //
 
