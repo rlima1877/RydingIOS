@@ -52,6 +52,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D390AF241BCEEFD400961B3C /* SwiftHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				D390AF1B1BCEEEF600961B3C /* Request.swift */,
+				D390AF1C1BCEEEF600961B3C /* StatusCode.swift */,
+				D390AF1E1BCEEEF600961B3C /* Upload.swift */,
+				D390AF1D1BCEEEF600961B3C /* SwiftHTTP.h */,
+				D390AF1A1BCEEEF600961B3C /* Operation.swift */,
+				D390AF191BCEEEF600961B3C /* HTTPSecurity.swift */,
+			);
+			name = SwiftHTTP;
+			sourceTree = "<group>";
+		};
 		DD2E18EE1BCC427900197BB9 = {
 			isa = PBXGroup;
 			children = (
@@ -71,12 +84,7 @@
 		DD2E18F91BCC427900197BB9 /* Ryding */ = {
 			isa = PBXGroup;
 			children = (
-				D390AF191BCEEEF600961B3C /* HTTPSecurity.swift */,
-				D390AF1A1BCEEEF600961B3C /* Operation.swift */,
-				D390AF1B1BCEEEF600961B3C /* Request.swift */,
-				D390AF1C1BCEEEF600961B3C /* StatusCode.swift */,
-				D390AF1D1BCEEEF600961B3C /* SwiftHTTP.h */,
-				D390AF1E1BCEEEF600961B3C /* Upload.swift */,
+				D390AF241BCEEFD400961B3C /* SwiftHTTP */,
 				DD2E18FA1BCC427900197BB9 /* AppDelegate.swift */,
 				DD2E18FE1BCC427900197BB9 /* Main.storyboard */,
 				DD3F4F3D1BCC70BF00B8521C /* BusDetailsViewController.swift */,
