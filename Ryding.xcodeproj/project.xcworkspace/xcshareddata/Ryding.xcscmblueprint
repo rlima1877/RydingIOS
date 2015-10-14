@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1FA75E051BDBD79CEAA7054A664A4A0E3DB8AB82",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "38D9009B322140394B9DA7467F68950B56B35FF5" : 0,
+    "1FA75E051BDBD79CEAA7054A664A4A0E3DB8AB82" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B4DA96C7-F00A-4144-B310-D7411AA4F5C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "38D9009B322140394B9DA7467F68950B56B35FF5" : "SwiftHTTP\/",
+    "1FA75E051BDBD79CEAA7054A664A4A0E3DB8AB82" : "rydingios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Ryding",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Ryding.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rlima1877\/rydingios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1FA75E051BDBD79CEAA7054A664A4A0E3DB8AB82"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/daltoniam\/SwiftHTTP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38D9009B322140394B9DA7467F68950B56B35FF5"
+    }
+  ]
+}
