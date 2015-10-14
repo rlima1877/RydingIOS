@@ -5,6 +5,44 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="mPk-sk-XtP">
+            <objects>
+                <viewController id="Swu-Oq-xgV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kay-N9-ZCX"/>
+                        <viewControllerLayoutGuide type="bottom" id="tIm-qS-k2o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YZI-Tx-ard">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7v-xx-EB9">
+                                <rect key="frame" x="279" y="168" width="42" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Driver"/>
+                                <connections>
+                                    <segue destination="sqi-ho-nwZ" kind="show" id="uNs-Fq-KEX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYS-Ed-CSL">
+                                <rect key="frame" x="264" y="298" width="72" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Passenger"/>
+                                <connections>
+                                    <segue destination="Dd4-Lq-bWW" kind="show" id="ttO-op-OYi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LQR-KJ-Hvh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Abn-XY-ypO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="235"/>
+        </scene>
         <!--Buses-->
         <scene sceneID="Wzf-MX-C0G">
             <objects>
@@ -38,7 +76,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B25-uv-EvF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="735" y="215"/>
+            <point key="canvasLocation" x="965" y="215"/>
         </scene>
         <!--Bus Details View Controller-->
         <scene sceneID="iAU-dD-QYy">
@@ -59,7 +97,7 @@
                                     <constraint firstAttribute="width" constant="195" id="BnX-XG-Isr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQ8-Zg-lEz">
@@ -85,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E5I-S7-o32" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="215"/>
+            <point key="canvasLocation" x="1573" y="211"/>
         </scene>
         <!--Bus Map View Controller-->
         <scene sceneID="nFp-Ew-1W6">
@@ -112,6 +150,34 @@
             </objects>
             <point key="canvasLocation" x="2165" y="215"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="tpu-Ob-gCG">
+            <objects>
+                <viewController id="sqi-ho-nwZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RsT-wM-vvN"/>
+                        <viewControllerLayoutGuide type="bottom" id="F79-k6-fKk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0sS-i9-Hfo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For Driver App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBI-II-8vk">
+                                <rect key="frame" x="165" y="261" width="111" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wEI-qy-hAu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-240" y="-454"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="JQ3-Ss-vet">
             <objects>
@@ -124,12 +190,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Dd4-Lq-bWW" kind="relationship" relationship="rootViewController" id="Dbi-8L-XHw"/>
+                        <segue destination="Swu-Oq-xgV" kind="relationship" relationship="rootViewController" id="1RH-m1-hun"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrU-IE-DC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-77" y="215"/>
+            <point key="canvasLocation" x="-724" y="215"/>
         </scene>
     </scenes>
 </document>
