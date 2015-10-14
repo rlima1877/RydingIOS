@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D390AF0D1BCC825900961B3C /* BusMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390AF0C1BCC825900961B3C /* BusMapViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D390AF141BCC882700961B3C /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390AF0E1BCC882700961B3C /* HTTPSecurity.swift */; settings = {ASSET_TAGS = (); }; };
-		D390AF151BCC882700961B3C /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390AF0F1BCC882700961B3C /* Operation.swift */; settings = {ASSET_TAGS = (); }; };
-		D390AF161BCC882700961B3C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390AF101BCC882700961B3C /* Request.swift */; settings = {ASSET_TAGS = (); }; };
-		D390AF171BCC882700961B3C /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390AF111BCC882700961B3C /* StatusCode.swift */; settings = {ASSET_TAGS = (); }; };
-		D390AF181BCC882700961B3C /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390AF131BCC882700961B3C /* Upload.swift */; settings = {ASSET_TAGS = (); }; };
 		DD2E18FB1BCC427900197BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E18FA1BCC427900197BB9 /* AppDelegate.swift */; };
 		DD2E19001BCC427900197BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2E18FE1BCC427900197BB9 /* Main.storyboard */; };
 		DD2E19021BCC427900197BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2E19011BCC427900197BB9 /* Assets.xcassets */; };
@@ -24,12 +19,6 @@
 
 /* Begin PBXFileReference section */
 		D390AF0C1BCC825900961B3C /* BusMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusMapViewController.swift; sourceTree = "<group>"; };
-		D390AF0E1BCC882700961B3C /* HTTPSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPSecurity.swift; path = ../../SwiftHTTP/HTTPSecurity.swift; sourceTree = "<group>"; };
-		D390AF0F1BCC882700961B3C /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = ../../SwiftHTTP/Operation.swift; sourceTree = "<group>"; };
-		D390AF101BCC882700961B3C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ../../SwiftHTTP/Request.swift; sourceTree = "<group>"; };
-		D390AF111BCC882700961B3C /* StatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusCode.swift; path = ../../SwiftHTTP/StatusCode.swift; sourceTree = "<group>"; };
-		D390AF121BCC882700961B3C /* SwiftHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftHTTP.h; path = ../../SwiftHTTP/SwiftHTTP.h; sourceTree = "<group>"; };
-		D390AF131BCC882700961B3C /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = ../../SwiftHTTP/Upload.swift; sourceTree = "<group>"; };
 		DD2E18F71BCC427900197BB9 /* Ryding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ryding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2E18FA1BCC427900197BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD2E18FF1BCC427900197BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +28,12 @@
 		DD3F4F391BCC6FCB00B8521C /* Bus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
 		DD3F4F3B1BCC707F00B8521C /* BusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTableViewController.swift; sourceTree = "<group>"; };
 		DD3F4F3D1BCC70BF00B8521C /* BusDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusDetailsViewController.swift; sourceTree = "<group>"; };
+		DD7C1FA71BCEECB400256E86 /* HTTPSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPSecurity.swift; path = "../../../../Desktop/SwiftHTTP-master/HTTPSecurity.swift"; sourceTree = "<group>"; };
+		DD7C1FA81BCEECB400256E86 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = "../../../../Desktop/SwiftHTTP-master/Operation.swift"; sourceTree = "<group>"; };
+		DD7C1FA91BCEECB400256E86 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Request.swift; path = "../../../../Desktop/SwiftHTTP-master/Request.swift"; sourceTree = "<group>"; };
+		DD7C1FAA1BCEECB400256E86 /* StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusCode.swift; path = "../../../../Desktop/SwiftHTTP-master/StatusCode.swift"; sourceTree = "<group>"; };
+		DD7C1FAB1BCEECB400256E86 /* SwiftHTTP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwiftHTTP.h; path = "../../../../Desktop/SwiftHTTP-master/SwiftHTTP.h"; sourceTree = "<group>"; };
+		DD7C1FAC1BCEECB400256E86 /* Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = "../../../../Desktop/SwiftHTTP-master/Upload.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +66,16 @@
 		DD2E18F91BCC427900197BB9 /* Ryding */ = {
 			isa = PBXGroup;
 			children = (
+				DD7C1FA71BCEECB400256E86 /* HTTPSecurity.swift */,
+				DD7C1FA81BCEECB400256E86 /* Operation.swift */,
+				DD7C1FA91BCEECB400256E86 /* Request.swift */,
+				DD7C1FAA1BCEECB400256E86 /* StatusCode.swift */,
+				DD7C1FAB1BCEECB400256E86 /* SwiftHTTP.h */,
+				DD7C1FAC1BCEECB400256E86 /* Upload.swift */,
 				DD2E18FA1BCC427900197BB9 /* AppDelegate.swift */,
 				DD2E18FE1BCC427900197BB9 /* Main.storyboard */,
 				DD3F4F3D1BCC70BF00B8521C /* BusDetailsViewController.swift */,
 				DD3F4F3B1BCC707F00B8521C /* BusTableViewController.swift */,
-				D390AF0E1BCC882700961B3C /* HTTPSecurity.swift */,
-				D390AF0F1BCC882700961B3C /* Operation.swift */,
-				D390AF101BCC882700961B3C /* Request.swift */,
-				D390AF111BCC882700961B3C /* StatusCode.swift */,
-				D390AF121BCC882700961B3C /* SwiftHTTP.h */,
-				D390AF131BCC882700961B3C /* Upload.swift */,
 				D390AF0C1BCC825900961B3C /* BusMapViewController.swift */,
 				DD2E19011BCC427900197BB9 /* Assets.xcassets */,
 				DD2E19031BCC427900197BB9 /* LaunchScreen.storyboard */,
@@ -161,12 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD3F4F3E1BCC70BF00B8521C /* BusDetailsViewController.swift in Sources */,
-				D390AF161BCC882700961B3C /* Request.swift in Sources */,
-				D390AF171BCC882700961B3C /* StatusCode.swift in Sources */,
-				D390AF151BCC882700961B3C /* Operation.swift in Sources */,
-				D390AF141BCC882700961B3C /* HTTPSecurity.swift in Sources */,
 				DD3F4F3A1BCC6FCB00B8521C /* Bus.swift in Sources */,
-				D390AF181BCC882700961B3C /* Upload.swift in Sources */,
 				DD2E18FB1BCC427900197BB9 /* AppDelegate.swift in Sources */,
 				DD3F4F3C1BCC707F00B8521C /* BusTableViewController.swift in Sources */,
 				D390AF0D1BCC825900961B3C /* BusMapViewController.swift in Sources */,
