@@ -20,12 +20,20 @@
 		DD3F4F3A1BCC6FCB00B8521C /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F4F391BCC6FCB00B8521C /* Bus.swift */; settings = {ASSET_TAGS = (); }; };
 		DD3F4F3C1BCC707F00B8521C /* BusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F4F3B1BCC707F00B8521C /* BusTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		DD3F4F3E1BCC70BF00B8521C /* BusDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F4F3D1BCC70BF00B8521C /* BusDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DD6E35091BD08A6F00E363E6 /* RydingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E35081BD08A6F00E363E6 /* RydingUITests.swift */; };
 		DDFBAE041BD07AC400058BDE /* DriverOrPassengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBAE031BD07AC400058BDE /* DriverOrPassengerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		DDFBAE061BD07B9700058BDE /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBAE051BD07B9700058BDE /* DriverViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		DDFBAE111BD07ED100058BDE /* RydingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBAE101BD07ED100058BDE /* RydingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DD6E350B1BD08A6F00E363E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2E18EF1BCC427900197BB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2E18F61BCC427900197BB9;
+			remoteInfo = Ryding;
+		};
 		DDFBAE131BD07ED100058BDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DD2E18EF1BCC427900197BB9 /* Project object */;
@@ -52,6 +60,9 @@
 		DD3F4F391BCC6FCB00B8521C /* Bus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
 		DD3F4F3B1BCC707F00B8521C /* BusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTableViewController.swift; sourceTree = "<group>"; };
 		DD3F4F3D1BCC70BF00B8521C /* BusDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusDetailsViewController.swift; sourceTree = "<group>"; };
+		DD6E35061BD08A6F00E363E6 /* RydingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RydingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6E35081BD08A6F00E363E6 /* RydingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RydingUITests.swift; sourceTree = "<group>"; };
+		DD6E350A1BD08A6F00E363E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDFBAE031BD07AC400058BDE /* DriverOrPassengerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverOrPassengerViewController.swift; sourceTree = "<group>"; };
 		DDFBAE051BD07B9700058BDE /* DriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
 		DDFBAE0E1BD07ED100058BDE /* RydingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RydingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +72,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		DD2E18F41BCC427900197BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E35031BD08A6F00E363E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,6 +113,7 @@
 			children = (
 				DD2E18F91BCC427900197BB9 /* Ryding */,
 				DDFBAE0F1BD07ED100058BDE /* RydingTests */,
+				DD6E35071BD08A6F00E363E6 /* RydingUITests */,
 				DD2E18F81BCC427900197BB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +123,7 @@
 			children = (
 				DD2E18F71BCC427900197BB9 /* Ryding.app */,
 				DDFBAE0E1BD07ED100058BDE /* RydingTests.xctest */,
+				DD6E35061BD08A6F00E363E6 /* RydingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +145,15 @@
 				DDFBAE051BD07B9700058BDE /* DriverViewController.swift */,
 			);
 			path = Ryding;
+			sourceTree = "<group>";
+		};
+		DD6E35071BD08A6F00E363E6 /* RydingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E35081BD08A6F00E363E6 /* RydingUITests.swift */,
+				DD6E350A1BD08A6F00E363E6 /* Info.plist */,
+			);
+			path = RydingUITests;
 			sourceTree = "<group>";
 		};
 		DDFBAE0F1BD07ED100058BDE /* RydingTests */ = {
@@ -156,6 +185,24 @@
 			productReference = DD2E18F71BCC427900197BB9 /* Ryding.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DD6E35051BD08A6F00E363E6 /* RydingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6E350F1BD08A6F00E363E6 /* Build configuration list for PBXNativeTarget "RydingUITests" */;
+			buildPhases = (
+				DD6E35021BD08A6F00E363E6 /* Sources */,
+				DD6E35031BD08A6F00E363E6 /* Frameworks */,
+				DD6E35041BD08A6F00E363E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6E350C1BD08A6F00E363E6 /* PBXTargetDependency */,
+			);
+			name = RydingUITests;
+			productName = RydingUITests;
+			productReference = DD6E35061BD08A6F00E363E6 /* RydingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		DDFBAE0D1BD07ED100058BDE /* RydingTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDFBAE151BD07ED100058BDE /* Build configuration list for PBXNativeTarget "RydingTests" */;
@@ -186,6 +233,10 @@
 					DD2E18F61BCC427900197BB9 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
+					DD6E35051BD08A6F00E363E6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DD2E18F61BCC427900197BB9;
+					};
 					DDFBAE0D1BD07ED100058BDE = {
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = DD2E18F61BCC427900197BB9;
@@ -207,6 +258,7 @@
 			targets = (
 				DD2E18F61BCC427900197BB9 /* Ryding */,
 				DDFBAE0D1BD07ED100058BDE /* RydingTests */,
+				DD6E35051BD08A6F00E363E6 /* RydingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,6 +271,13 @@
 				DD2E19051BCC427900197BB9 /* LaunchScreen.storyboard in Resources */,
 				DD2E19021BCC427900197BB9 /* Assets.xcassets in Resources */,
 				DD2E19001BCC427900197BB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6E35041BD08A6F00E363E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +310,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD6E35021BD08A6F00E363E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6E35091BD08A6F00E363E6 /* RydingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DDFBAE0A1BD07ED100058BDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +329,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DD6E350C1BD08A6F00E363E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2E18F61BCC427900197BB9 /* Ryding */;
+			targetProxy = DD6E350B1BD08A6F00E363E6 /* PBXContainerItemProxy */;
+		};
 		DDFBAE141BD07ED100058BDE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DD2E18F61BCC427900197BB9 /* Ryding */;
@@ -394,6 +466,30 @@
 			};
 			name = Release;
 		};
+		DD6E350D1BD08A6F00E363E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RydingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ryding.Temple.RydingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ryding;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD6E350E1BD08A6F00E363E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RydingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ryding.Temple.RydingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ryding;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		DDFBAE161BD07ED100058BDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -439,6 +535,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DD6E350F1BD08A6F00E363E6 /* Build configuration list for PBXNativeTarget "RydingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6E350D1BD08A6F00E363E6 /* Debug */,
+				DD6E350E1BD08A6F00E363E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DDFBAE151BD07ED100058BDE /* Build configuration list for PBXNativeTarget "RydingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -446,6 +550,7 @@
 				DDFBAE171BD07ED100058BDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
