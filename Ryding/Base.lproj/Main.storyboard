@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BWL-id-3X9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BWL-id-3X9">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Driver Or Passenger View Controller-->
         <scene sceneID="mPk-sk-XtP">
             <objects>
-                <viewController id="Swu-Oq-xgV" sceneMemberID="viewController">
+                <viewController id="Swu-Oq-xgV" customClass="DriverOrPassengerViewController" customModule="Ryding" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kay-N9-ZCX"/>
                         <viewControllerLayoutGuide type="bottom" id="tIm-qS-k2o"/>
@@ -41,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Abn-XY-ypO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48" y="235"/>
+            <point key="canvasLocation" x="-340" y="395"/>
         </scene>
         <!--Buses-->
         <scene sceneID="Wzf-MX-C0G">
@@ -57,7 +57,7 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mur-GM-QqP" id="PKh-9a-S7E">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
                                 </tableViewCellContentView>
@@ -76,7 +76,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B25-uv-EvF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="965" y="215"/>
+            <point key="canvasLocation" x="509" y="859"/>
         </scene>
         <!--Bus Details View Controller-->
         <scene sceneID="iAU-dD-QYy">
@@ -123,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E5I-S7-o32" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1573" y="211"/>
+            <point key="canvasLocation" x="1453" y="859"/>
         </scene>
         <!--Bus Map View Controller-->
         <scene sceneID="nFp-Ew-1W6">
@@ -148,12 +148,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s8i-7k-EEG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2165" y="215"/>
+            <point key="canvasLocation" x="2273" y="859"/>
         </scene>
-        <!--View Controller-->
+        <!--Driver View Controller-->
         <scene sceneID="tpu-Ob-gCG">
             <objects>
-                <viewController id="sqi-ho-nwZ" sceneMemberID="viewController">
+                <viewController id="sqi-ho-nwZ" customClass="DriverViewController" customModule="Ryding" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RsT-wM-vvN"/>
                         <viewControllerLayoutGuide type="bottom" id="F79-k6-fKk"/>
@@ -176,7 +176,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wEI-qy-hAu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-240" y="-454"/>
+            <point key="canvasLocation" x="536" y="-262"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JQ3-Ss-vet">
@@ -195,7 +195,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrU-IE-DC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-724" y="215"/>
+            <point key="canvasLocation" x="-1140" y="395"/>
         </scene>
     </scenes>
 </document>
